@@ -1,4 +1,5 @@
-@import url(/styles/header.css);
+@import url(header.css);
+@import url(description.css);
 
 * {
   outline-width: 1px;
@@ -15,8 +16,11 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
 }
+
 /* и элемента с модификатором вида ключ-значение */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
