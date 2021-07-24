@@ -7,6 +7,7 @@
   height: 890px;
   background: #f2f2f2 url('../images/feynman.png') no-repeat left bottom;
   background-size: 867px, 637px;
+  /* сделал блок флекс-контейнером, задал размеры и фон */
 }
 
 .feynman__title {
@@ -16,6 +17,7 @@
   font-size: 120px;
   line-height: 1.15;
   font-weight: 600;
+  /* сбросил встроенные отступы, задал ширину и типографику */
 }
 .feynman__subtitle {
   margin: 0;
@@ -23,6 +25,7 @@
   line-height: 51px;
   font-weight: normal;
   text-align: center;
+  /* то же самое */
 }
 .feynman__link {
   position: absolute;
@@ -34,4 +37,5 @@
   font-weight: normal;
   color: #2e81ed;
   text-decoration: none;
+  /* расположил ссылку у правого края, сдвинул на середину блока и вычел её высоту. Задал цвет и типографику ссылке */
 }
