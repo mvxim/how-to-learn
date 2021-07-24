@@ -1,0 +1,31 @@
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  /* задал таблице свойства флекс-контейнера, ширину, заставил переносить и распрелелять содержимое */
+}
+
+.table__block {
+  margin: 0 auto;
+  /* добавил таблице выравнивание по центру родителя */
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
