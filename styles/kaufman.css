@@ -1,0 +1,62 @@
+/* стили для блока kaufman */
+.kaufman {
+  background: #1f1f1f;
+  overflow: hidden;
+}
+
+.kaufman__block {
+  position: relative;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  /* создал элемент-обертку, чтобы задать ей отступ и превратить во флекс-контейнер. Повернул ось и выровнял флекс-элементы по центру */
+}
+
+.kaufman__title {
+  margin: 0 0 20px 0;
+  /* убрал все стандартные отступы для заголовка и добавил отступ снизу */
+}
+
+.kaufman__subtitle {
+  margin: 0;
+  /* убрал все стандартные отступы для подзаголовка */
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 1;
+}
+
+.section-title_theme_dark {
+  color: #fff;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.table__heading_theme_dark {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: white;
+}
+
+.table__text_theme_dark{
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: white;
+}
+
