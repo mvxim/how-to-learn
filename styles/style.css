@@ -1,13 +1,10 @@
 @import url(header.css);
 @import url(description.css);
 @import url(digits.css);
+@import url(table.css);
 @import url(feynman.css);
+@import url(kaufman.css);
 
-* {
-  outline-width: 1px;
-  outline-style: solid;
-  outline-color: red;
-}
 
 .page {
   min-width: 1100px;
@@ -19,13 +16,4 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   box-sizing: border-box;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
