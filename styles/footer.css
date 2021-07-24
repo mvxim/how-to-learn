@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  /* выровнял содержимое футера посередине, задал высоту и цвет */
+}
+.page__footer {
+  padding: 60px 0 40px 0;
+  /* добавил отступы от границ блока */
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  /* задал ширину контенту футера, распределил колонки */
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  /* поменял направление основной оси флекс-контейнера */
+}
+.footer__column_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+  /* задал минимальную ширину колонке, логотип и копирайт раздвинул к верху и низу блока */
+}
+
+.footer__column_content_info {
+  justify-content: flex-start;
+}
+
+.footer__column_content_social {
+  justify-content: flex-start;
+  /* подвинул содержимое к верху колонки */
+}
+
+.logo_place_footer {
+  height: 35px;
+  /* перезаписал высоту логотипа, указанную для блока logo*/
+}
+.footer__author {
+  margin: 10px 0 10px 0;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  /* оформил типографику и отступы для подписи автора */
+}
+.footer__column-heading {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fff;
+  /* стиль заголовка раздела футера */
+}
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 16px 0;
+  /* позиционирование и отступы для раздела со ссылками */
+}
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+  /* оформление для ссылки и выравнивание текста и иконки */
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  /* размеры иконки и отступ после нее */
+}
